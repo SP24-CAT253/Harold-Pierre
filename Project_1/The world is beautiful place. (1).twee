@@ -1,0 +1,105 @@
+:: StoryTitle
+The world is beautiful place.
+
+
+:: StoryData
+{
+  "ifid": "F2F98BA3-3C72-49B5-94A3-39099B45EF35",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "The world is...",
+  "zoom": 1
+}
+
+
+:: The world is a wonderous place {"position":"1050,375","size":"100,100"}
+''the world is a beaultiful place'' to be born into
+
+if you don’t mind some people dying all the time
+
+or maybe only starving some of the time
+
+which isn’t half so bad //'' if it isn’t you''// 
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.8s)[[Third->The world is strange place.]]
+
+
+:: The world is strange place. {"position":"1200,375","size":"100,100"}
+Yes the world is the best place of all for a lot of such things as
+
+making the fun scene
+
+and making the love scene
+
+and making the sad scene
+
+and singing low songs of having  inspirations
+
+and walking around looking at everything
+
+and smelling flowers
+
+and goosing statues
+
+and even thinking 
+
+and kissing people 
+
+and making babies 
+
+and wearing pants
+
+and waving hats 
+
+and dancing
+
+and going swimming in rivers on picnics in the middle of the summer
+
+and just generally ‘living it up’
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.8s)[[the world is a beautiful place->The world isn't half bad]]
+
+
+:: The world is... {"position":"875,375","size":"100,100"}
+Lawrence Ferlinghetti 
+
+
+The world is a beautiful place to be born into 
+
+if you don’t mind happiness not always being so very much fun 
+
+if you don’t mind a touch of hell now and then just when everything is fine 
+
+because...
+
+
+//even in heaven... 
+
+
+''... they don’t sing all the time.'' // 
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.1s)[[the world is a beautiful place. ->The world is a wonderous place]]
+
+
+
+
+:: The world isn't half bad {"position":"1350,375","size":"100,100"}
+Oh ''the world is a strange place ''to be born into
+
+if you don’t much mind a few dead minds
+ 
+in the higher places or a bomb or two
+ 
+now and then in your upturned faces
+  
+or such other improprieties as our Name Brand society
+
+is prey to  with its men of distinction
+     
+and its men of extinction   and its priests
+             
+and other patrolmen and its various segregations
+ 
+and congressional investigations and other constipations
+   
+that our fool flesh is heir to
