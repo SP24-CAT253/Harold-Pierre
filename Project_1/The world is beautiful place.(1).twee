@@ -1,0 +1,62 @@
+:: StoryTitle
+The world is beautiful place.
+
+
+:: StoryData
+{
+  "ifid": "F2F98BA3-3C72-49B5-94A3-39099B45EF35",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "The world is...",
+  "zoom": 1
+}
+
+
+:: Awoken {"position":"1000,375","size":"100,100"}
+(align:"=><=")+(box:"===XXXXXXXXXXXXXX===")[You wake up from your uncomfortable bed in project housing. 
+
+Your late grandmother has just passed away, and you are scheduled to meet up with your family for the furneral in just a few days. Many feelings of grief and sadness have washed over you and your family, but you, especially. 
+
+You know why, but ''do you really? '' 
+
+You decide to make up your bed, when suddenly, your alarm goes off. It's alarm perices through your ears, so you decide to check it out. 
+ 
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Check out the clock. ->Yeah. ]]
+
+]
+
+
+
+:: The world is... {"position":"850,375","size":"100,100"}
+
+
+
+
+(align:"=><=")[(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Introducing...->Awoken]] 
+
+
+"//The world is a beautiful place//" by Lawrence Ferlinghetti ]
+
+
+
+
+
+
+:: Yeah.\  {"position":"1150,375","size":"100,100"}
+(align:"=><=")+(box:"===XXXXXXXXXXXXXX===")[With haste, you shut off the cursed thing. You looked more closely at the alarm clock. 
+
+8:15. That's the time where you have to go to work, or at least, that's when you're ''supposed'' to. 
+
+You decided to take an few vacation days decicated to his griefing, and his boss allowed him to come back when he was ready. Perks of being a good employee, I guess.
+
+''Something's bugging you, something sinister'', and you feel like you have to ''deal with it today''. You can't explain it, but if ''you don't deal with this now, you'll never get over it. ''
+
+But before you deal with that, it seems like you've got chores to do: 
+
+''Your room is a mess''. You took the realization the hardest, and the reminder is not a sight for sore eyes. 
+
+In the near distance, you notice several things: ]
+
+Your messy clothes scattered all across the floor and your chair. [10 minutes] 
+
+Your desk
