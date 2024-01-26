@@ -1,0 +1,145 @@
+:: StoryTitle
+The world is beautiful place.
+
+
+:: StoryData
+{
+  "ifid": "F2F98BA3-3C72-49B5-94A3-39099B45EF35",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "The world is...",
+  "zoom": 0.6
+}
+
+
+:: Awoken {"position":"600,500","size":"100,100"}
+(align:"=><=")+(box:"===XXXXXXXXXXXXXX===")[You wake up from your uncomfortable bed in project housing. 
+
+Your late grandmother has just passed away, and you are scheduled to meet up with your family for the furneral in just a few days. Many feelings of grief and sadness have washed over you and your family, but you, especially. 
+
+You know why, but ''do you really? '' 
+
+You decide to make up your bed, when suddenly, your alarm goes off. It's alarm perices through your ears, so you decide to check it out. 
+ 
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Check out the clock. ->Yeah. ]]
+
+]
+
+
+:: Clean {"position":"1600,600","size":"100,100"}
+Your house is clean, congrats. 
+
+You spend a few hours in your home, and now it's  ''11:30''. 
+
+The feeling hasn't gone away, but at least you've accomplished something. 
+
+You want to take a walk, hopefully 
+
+
+
+:: Cleaning Time: Desk {"position":"1000,200","size":"100,100"}
+So you decide to clean your desk first. 
+
+Your floor is still dirty, so it takes a while to get to the desk, but when you do, you waste no time. 
+
+You start by removing the empty beverages and dispose of them properly. 
+
+You spray down your desk with disinfectant and wipe down the liqiuds. 
+
+After wiping the table, you seem to notice tha
+
+
+
+
+
+
+
+:: Cleaning Time: Floor {"position":"1000,800","size":"100,100"}
+(align:"=><=")+(box:"=XXX=")[So you decide to clean your floor first. Seems fair, considering getting your clothes out of the walkway will allow you to preform your other tasks much easier. 
+
+
+You grab several hangers within your closet and get to work, diligently hanging up your T-shirts and sweaters. You place all of your pants on your bed and folded them up afterwards, neatly into a drawer. 
+
+Cleaning the floor was simple enough, and your surprised it isn't as bad as it looks. 
+
+In the mist of cleaning your floor, you pick up a pair of pants and notice something is inside one of the pockets. You dig into the pocket with no hesitation, and it's a mini figuren of the Megazoid from Power Rangers! 
+
+The paint on the figure has mostly scrapped off, but you could still recognize it from your childhood. 
+
+It reminds you of your Grandmother, and you tear up just slighty. 
+
+You contenplate on whether to (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[throw it out->Toy: Throw Away]], or(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[ keep it->Toy: Keep]]. ]
+
+
+:: Orphanage Time {"position":"1600,1100","size":"100,100"}
+So you manage to arrive on time. You exit out of your car and 
+
+
+:: Stubborn {"position":"1300,900","size":"100,100"}
+
+
+
+:: The world is... {"position":"400,500","size":"100,100"}
+(align:"=><=")[(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Introducing...->Awoken]] 
+
+
+"//The world is a beautiful place//" by Lawrence Ferlinghetti ]
+
+
+:: Toy: Keep {"position":"1100,600","size":"100,100"}
+To remember the legacy of your grandmother, you decide to keep it. 
+
+You go ahead and put in on your shelf, which you also had to clean since it was quite a mess. 
+
+You feel like you don't deserve to put it there, but do so anyways 
+
+Just because you did the floor, that doesn't mean you're done. You spend some more time clean, distracting yourself from how you really feel... 
+
+Continue
+
+
+
+
+:: Toy: Throw Away {"position":"1100,1000","size":"100,100"}
+(align:"=><=")[With a heavy heart, you decide to toss it. 
+
+Frankly, it's lost it's meaning as an adult, and nothing can last for ever. Somethings are just meant to remain as relics of the past, and nothing more. 
+
+On your way to dispose of it in your garbage can, you notice a T-shirt lying on the floor. Taking a closer look at it, It's of an ophanage your parents work at. 
+
+You think for a moment, and it would probably be a much better use of your time if you donated it to this place. It'd be nice to see the kids again, as during this time of extreme distress, you could at least make a difference. 
+
+However, you could always just dispose of it instead.
+
+What will you do? Will you (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[donate to the orphanage->Travel: To the Orphanage]], or (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[will you discard of it anyways?->Stubborn]]]
+
+
+:: Travel: To the Orphanage {"position":"1300,1100","size":"100,100"}
+You decide that the best thing to do is to donate it to a good cause. 
+
+When you look around you however, you still have to a messy room, but it can wait. After all, you don't imagine very much could happen while you're gone. 
+
+You get your things ready, and eventually leave your apartment. You make your way to the garage, as you use your car keys to locate the car and exit towards the facilility.   
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[To the Orphanage! ->Orphanage Time]]
+
+
+:: Yeah.\  {"position":"800,500","size":"100,100"}
+(align:"=><=")+(box:"===XXXXXXXXXXXXXX===")[With haste, you shut off the cursed thing. You looked more closely at the alarm clock. 
+
+''8:15''. That's the time where you have to go to work, or at least, that's when you're ''supposed'' to. 
+
+You decided to take an few vacation days decicated to his griefing, and his boss allowed him to come back when he was ready. Perks of being a good employee, I guess.
+
+''Something's bugging you, something sinister'', and you feel like you have to ''deal with it today''. You can't explain it, but if ''you don't deal with this now, you'll never get over it. ''
+
+But before you deal with that, it seems like you've got chores to do: 
+
+''Your room is a mess''. You took the realization the hardest, and the reminder is not a sight for sore eyes. 
+
+In the near distance, you notice several things: 
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Your messy clothes scattered all across the floor and your chair. ->Cleaning Time: Floor]]
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Your desk flooding with liquids from beverages, creating an nauseating smell. ->Cleaning Time: Desk]] 
+]
