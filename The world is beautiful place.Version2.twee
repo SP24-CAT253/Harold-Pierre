@@ -1,0 +1,342 @@
+:: StoryTitle
+The world is beautiful place.
+
+
+:: StoryData
+{
+  "ifid": "F2F98BA3-3C72-49B5-94A3-39099B45EF35",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "The world is...",
+  "zoom": 0.6
+}
+
+
+:: Awoken {"position":"400,1000","size":"100,100"}
+(align:"=><=")+(box:"===XXXXXXXXXXXXXX===")[You wake up from your uncomfortable bed in project housing. 
+
+You squint while opening your phone, and the realization hits you like a truck. 
+
+Your late grandmother has just passed away, and you and your family are scheduled to meet up for the funeral in just a few days. Many feelings of grief and sadness have washed over your family, but you, especially. 
+
+It's hazy, but you feel a sense of guilt.'' Insurmountable guilt'', but you don't seem to know why...
+
+You decide to make up your bed when suddenly, your alarm goes off. It's alarm pierces through your ears, so you decide to check it out. 
+ 
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Check out the clock. ->Yeah. ]]
+
+]
+
+
+:: Clean {"position":"1100,1100","size":"100,100"}
+(align:"=><=")+(box:"=XXX=")[You spend a few hours in your home, and now it's  ''1:30''. 
+
+The feeling hasn't gone away, but at least you've accomplished something. Your house is clean, congrats. 
+
+You get up to wash your face, and put some clothes on.
+
+Once your done, you decide on what to do for the next few hours. 
+
+You analyze some news going on at a nearby park, and there seems to be (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[a paint exhibit going on.  ->Travel: Park Going]] A fine distraction from everything that's happened lately.
+
+You could always (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[go to that orphanage you've been eyeing for a while. ->travel to the place]] Maybe you could go see your parents for help. 
+
+While cleaning your pants, you've noticed(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[ a pair of keys ->Pants: Curious]] you found within those pair of pants on your desk.
+]
+
+
+:: Cleaning Time: Desk {"position":"600,800","size":"100,100"}
+(align:"=><=")[ So you decide to clean your desk first. 
+
+Your floor is still dirty, so it takes a while to get to the desk, but when you do, you waste no time. 
+
+You start by removing the empty beverages and dispose of them properly. 
+
+You spray down your desk with disinfectant and wipe down the liquids, making sure your desk is at least habitable. 
+
+You pick up items on the floor that belong to your desk. You wipe down your PC and monitor and finally get to your chair.
+
+Grabbing them, you examine that there is a suspicious bulge around the pocket area. You seem quite curious, and want to (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[see what's inside->Pants: Curious]], or(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[ maybe we shouldn't.->Pants: Not so curious]] ]
+
+
+
+:: Cleaning Time: Floor {"position":"600,1200","size":"100,100"}
+(align:"=><=")+(box:"=XXX=")[So you decide to clean the floor first. Seems fair, considering getting your clothes out of the walkway will allow you to perform other tasks much more easily. 
+
+You grab several hangers within your closet and get to work, diligently hanging up your T-shirts and sweaters. You place all of your pants on your bed and fold them up afterward, neatly into a drawer. 
+
+Cleaning the floor was simple enough, and you are surprised it isn't as bad as it looks. 
+
+While cleaning your floor, you notice something sticking out of the pile. You investigate, and discover that it's a mini figurine of the Megazoid from Power Rangers! 
+
+The paint on the figure has mostly scrapped off from excessive playing, but you could still recognize it from your childhood. 
+
+It reminds you of your late Grandmother, and you tear up just slightly.
+
+You contenplate on whether to (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[throw it out->Toy: Throw Away]], or(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[ keep it->Toy: Keep]]. ]
+
+
+:: Figure it out {"position":"500,1700","size":"100,100"}
+
+
+
+:: Guilt {"position":"1300,600","size":"100,100"}
+You don't know what to do with yourself. 
+
+You want to (t8n-time:3.5s)[[turn yourself in->Misunderstanding]] for accidently killing your grandmother, or perhaps keep it hidden.
+
+
+:: Lazy {"position":"1000,1300","size":"100,100"}
+''It's currently 10PM. ''
+
+You've finished cleaning your room and think for a while. 
+
+You have a few options at your disposal: 
+
+You could always (t8n-time:3.5s)[[go to that park nearby for a nice walk->Travel: Park Going]] 
+
+Go ahead and (t8n-time:3.5s)[[investigate those pants anyway->Pants: Curious]]. 
+
+Stay inside for a while and truly[[try to understand why->understand? ]] you feel the way you do.
+
+
+:: Misunderstanding {"position":"1600,600","size":"100,100"}
+You decide to turn yourself in to the Police, but they explain that this was all a misunderstanding 
+
+While you were at the scene of the crime, he shouldn't blame himself for what happened. 
+
+You still feel a small shred of guilt, but you feel better knowing that you've dealt with it properly. 
+
+(t8n-time:3.5s)[[You return home->Settled]].
+
+
+:: Orphanage Time {"position":"1000,1500","size":"100,100"}
+(align:"=><=")[You arrive at 11:15 AM. 
+
+You exit out the car, with your toy in hand. You look at it for a while, and then look up at the Orphanage. 
+
+This feels symbolic in a way for you, but you don't dwell on this for a while, kids would would love to play with something like this. 
+
+With that, you head inside, and shortly after, you fill out the nessasary paper work and donate your toy properly. 
+
+Before leaving, you make one final request: He just wants to see the kid who obtained the toy. 
+
+The employee places the toy inside a basket with other toys, and instructs you to follow them, and (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[head to a room behind the desk.->Parting Gift]] ]
+
+
+:: Pants: Curious {"position":"800,600","size":"100,100"}
+(align:"=><=")[ Out of sheer curiosity, you see what's in the pants. 
+
+Your pocket swallows your hand, as you grab what's inside and pull it out in a fist. You open your fingers to find a pair of keys. 
+
+You look closely, and it has some wording on it. the casing is slightly scratched, but is still readable: 
+
+(text-rotate-z:342)[A] (text-rotate-z:12)[r] (text-rotate-z:330)[T] 2 2 9 
+
+When you read this out loud, it's almost like a bell goes off in your brain. 
+
+You know for a fact where this is. This was the place, the scene of the incident. 
+
+You have to pay this place a visit. You have to make sense of this all,  (t8n-depart:"slide-right")+(t8n-arrive:"slide-right")+(t8n-time:3.5s)[[you have to. ->Wherever this place is]] ]
+
+
+:: Pants: Not so curious {"position":"800,900","size":"100,100"}
+Eh, who cares. You chuck the pants in a draw and get ready for the the day. 
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Continue->Lazy]]
+
+
+:: Parting Gift {"position":"1200,1500","size":"100,100"}
+(align:"=><=")[You arrive in a toy-ish-themed classroom. ''It feels familiar, somehow...'' 
+
+You see many kids playing with various toys and interacting with one another. 
+
+The employee gently places the plastic box of toys on the ground and encourages the kids to look at them. 
+
+You stand patiently, but it seems like no one is interested in the toy... except one kid. 
+
+He grabs it and is ecstatic. He loves Power Rangers and will play with it until all the paint peels off. 
+
+He wonders who got him this, and you step forward. He goes inside his cubby and pulls out a kid's drawing of the power rangers. You take it delightedly and thank both him and the staff. 
+
+You fold the drawing into your back pocket, and eventually part ways and (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[go home.->Return]] 
+] 
+
+
+:: Retry? {"position":"300,1600","size":"100,100"}
+(align:"=><=")[Thanks For Playing! 
+
+Inspired by "Who Has Seen the Wind?" by Christina Rossetti
+
+
+You have obtained ''one of the three endings''. Care to discover the other two? 
+
+(t8n-time:2s)[[Continue searching for the answers ->The world is...]]
+
+Or, if you know everything already, you could (t8n-time:2s)[[put your knowledge to the test.->Figure it out]]
+
+''OBTAIN ALL THE ENDINGS FIRST BEFORE ATTEMPTING THIS.'' 
+]
+
+
+:: Return {"position":"1100,1700","size":"100,100"}
+(align:"=><=")[Your driving home, thinking about what just transpired. 
+
+That ophanage, it felt familar, and as you pend on that though, you remember a core memory. 
+
+''You're Adopted'' 
+
+Your family alerted this to you when you were younger, but have forgotten in recent years. It's quite easy to remember, but frankly, maybe you ''wanted'' to forget. 
+
+Your bother accidently exposed your adopted status in your school after getting into a fight, and you were merciously bullied for it. Everyday you came back more depressed from school. 
+
+You eventally were forced to come to terms with it, but the word used against you has led to you becoming bitter about it. 
+
+You've found some peace with helping that kid out, but now, instead of feeling guilt, you question why you felt guilty anyways.
+
+You make your way home, and decide to rest. You ponder these thoughts for a while before drifting to sleep.
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:2s)[[ENDING->Retry?]]
+
+]
+
+
+:: Settled {"position":"1900,600","size":"100,100"}
+You can finally rest now, knowing that everything's gonna be okay. 
+
+Maybe things we'ren't as bad as you expected. 
+
+You still feel bad for what happened, but you vowed to always open your heart and never give in to temptation. 
+
+ENDING 2 of ???: Finally Resolved
+
+
+:: Stubborn {"position":"800,1300","size":"100,100"}
+You decided to discard of it anyways.
+
+I'm sure they have more than enough toys already, and a reminding of your sin is not very nice. 
+
+You decide to finish cleaning, which takes a few hours... 
+
+[[Continue->Lazy]]
+
+
+:: The Park {"position":"1500,1000","size":"100,100"}
+You arrive at your destination. 
+
+You walk around for a bit. 
+
+You sit on a bench, contenplating the lost, and especially the guilt 
+
+I think it's finally time to (t8n-time:3.5s)[[confront it->The truth]], running away from it is pointless.
+
+
+:: The truth {"position":"1700,1000","size":"100,100"}
+You killed your grandma, or at least that's what you think. 
+
+The guilt still hasn't left your body, but now you want to truly get to the bottom of this. 
+
+Now, your more motivated to figure out the truth. You really can't let this slide now. 
+
+You have to go to the place in which it all started... (t8n-time:3.5s)[[her art studio->Wherever this place is]].
+
+
+:: The world is... {"position":"200,1000","size":"100,100"}
+(align:"=><=")[(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Introducing...->Awoken]] 
+
+
+"//The Unknown//" by Harold J. Pierre]
+
+- Fix Grammar Errors 
+- Wrap up Granny Plotline 
+- Experiment with other styles
+
+
+:: Toy: Keep {"position":"800,1100","size":"100,100"}
+(align:"=><=")+(box:"=XXX=")[ To remember the legacy of your grandmother, you decide to keep it. 
+
+You go ahead and put in on your shelf, which you also had to clean since it was quite a mess. 
+
+''You feel like you don't deserve to put it there.''
+
+Your floor is done, but you've still got work to do. You (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[continue->Clean]] on, trying to avoid the pending question. 
+
+]
+
+
+:: Toy: Throw Away {"position":"600,1500","size":"100,100"}
+(align:"=><=")[With a heavy heart, you decide to toss it. 
+
+Frankly, it's lost its meaning as an adult, and nothing can last forever. Some things are just meant to remain as relics of the past, and nothing more. 
+
+On your way to dispose of it in your garbage can, you notice a T-shirt lying on the floor. Taking a closer look at it, It's of an orphanage your parents work at. 
+
+You think for a moment, and it would probably be a much better use of your time if you donated it to this place. It'd be nice to see the kids again, as, during this time of extreme distress, you could at least make a difference. 
+
+However, you could always just dispose of it instead.
+
+What will you do? Will you (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[donate to the orphanage->Travel: To the Orphanage]], or (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[will you discard of it anyways?->Stubborn]]]
+
+
+:: Travel: Park Going {"position":"1300,1000","size":"100,100"}
+You decide to finally go to the park. 
+
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[To the Park! ->The Park]]
+
+
+:: Travel: To the Orphanage {"position":"800,1500","size":"100,100"}
+(align:"=><=")[You decide that the best thing to do is to donate it to a good cause. 
+
+When you look around you, however, you still have a messy room, but it can wait. After all, you don't imagine very much could happen while you're gone. 
+
+You get your things ready and eventually leave your apartment. You make your way to the garage, and you use your car keys to locate the car and exit towards the facility.   
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[To the Orphanage! ->Orphanage Time]] ]
+
+
+:: Wherever this place is {"position":"1000,600","size":"100,100"}
+You arrive at... this place 
+
+You thought after it was all over, you'd never have to see this place again, but at last, you must confront it. 
+
+You go to the scene, and the memories flood your mind. 
+
+You remember what happened... 
+
+Your late grandmother died of a heart attack, and as far as you know, you're the one to (t8n-time:3.5s)[[cause it->Guilt]].
+
+
+:: Yeah.\  {"position":"600,1000","size":"100,100"}
+(align:"=><=")+(box:"===XXXXXXXXXXXXXX===")[With haste, you shut off the cursed thing. You looked more closely at the alarm clock. 
+
+''8:15''. That's the time where you have to go to work, or at least, that's when you're ''supposed'' to. 
+
+You decided to take a few vacation days dedicated to your grieving, and your boss is quite understanding of this. Perks of being a good employee, I guess.
+
+''Something's bugging you'', something ''sinister'', and you feel like you have to ''deal with it today''. You can't explain it, but if ''you don't deal with this now, you'll never get over it''.
+
+But before you deal with that, it seems like you've got chores to do: 
+
+''Your room is a mess.'' You took the realization the hardest, and the reminder is not a sight for sore eyes. 
+
+In the near distance, you notice several things: 
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Your messy clothes scattered all across the floor. Among the piles of clothes, you seem to notice a faint object buried within. ->Cleaning Time: Floor]]
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Your desk flooding with liquids from beverages, creating an nauseating smell. Your last pair of pants seems to have a bloated pocket. ->Cleaning Time: Desk]] 
+]
+
+
+:: travel to the place {"position":"1400,1225","size":"100,100"}
+With 
+
+
+:: understand?\  {"position":"1200,1300","size":"100,100"}
+You think really think about it quite a bit, and while it takes a while you remember what happened 
+
+You killed her, or atleast, you think you did 
+
+The prospect of this frigtens you, so you decide to excommunicate yourself from your family, in fear of what they may think of you. 
+
+ENDING 3: Isolation
