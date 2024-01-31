@@ -1,0 +1,594 @@
+:: StoryTitle
+The world is beautiful place.
+
+
+:: StoryData
+{
+  "ifid": "F2F98BA3-3C72-49B5-94A3-39099B45EF35",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "The world is...",
+  "zoom": 0.6
+}
+
+
+:: Awoken {"position":"700,825","size":"100,100"}
+(align:"=><=")[''You wake up from your uncomfortable bed in project housing''. 
+
+You squint while opening your phone, and the realization hits you like a truck. 
+
+''Your late grandmother has just passed away'', and you and your family are scheduled to meet up for the funeral in just a few days. Many feelings of grief and sadness have washed over your family, but you, especially. 
+
+It's hazy, but you feel a sense of guilt.'' Insurmountable guilt'', but you don't seem to know why...
+
+You decide to make up your bed when suddenly, your alarm goes off. It's alarm pierces through your ears, so you decide to check it out. 
+ 
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Check out the clock. ->Yeah. ]]
+
+]
+
+
+:: Clean {"position":"1500,1300","size":"100,100"}
+(align:"=><=")[''You spend a few hours in your home, and now it's  12:30AM.'' 
+
+The feeling hasn't gone away, but ''at least you've accomplished something.'' Your house is clean, congrats. 
+
+You get up to wash your face, and put some clothes on.
+
+Once your done, ''you decide on what to do for the next few hours.''
+
+You browsed the internet for a while, and discover that there's a [[flea market going on in  a nearby park.->Travel: To the Park]] It's a worthwhile distract, and you've always loved flea markets, especially as a kid. 
+
+While cleaning,, you've noticed(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[ a pair of keys ->Pants: Curious]] you found within those pair of pants on your desk.
+
+Sit down, and truly (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[try to remember what happened that day...->Deep thought]] 
+
+]
+
+
+:: Clean, but without pants option {"position":"1700,600","size":"100,100"}
+(align:"=><=")+(box:"=XXX=")[''You spend a few hours in your home, and now it's  12:30''. 
+
+''The feeling hasn't gone away, but at least you've accomplished something.'' Your house is clean, congrats. 
+
+You get up to wash your face, and put some clothes on.
+
+Once your done,'' you decide on what to do for the next few hours.'' 
+
+You browsed the internet for a while, and discover that there's a [[flea market going on in  a nearby park.->Travel: To the Park]] It's a worthwhile distract, and you've always loved flea markets, especially as a kid.  
+
+Sit down, and truly (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[try to remember what happened that day...->Deep thought]] 
+
+]
+
+
+:: Cleaning Time: Desk {"position":"1100,600","size":"100,100"}
+(align:"=><=")[''So you decide to clean your desk first. ''
+
+Your floor is still dirty, so it takes a while to get to the desk, but when you do, you waste no time. 
+
+You start by removing the empty beverages and dispose of them properly. 
+
+''You spray down your desk with disinfectant and wipe down the liquids, making sure your desk is at least habitable. ''
+
+You pick up items on the floor that belong to your desk. You wipe down your PC and monitor and finally get to your chair.
+
+Grabbing them, you examine that there is a suspicious bulge around the pocket area. You seem quite curious, and want to (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[see what's inside->Pants: Curious]], or(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[ maybe we shouldn't.->Pants: Not so curious]] ]
+
+
+:: Cleaning Time: Floor {"position":"900,800","size":"100,100"}
+(align:"=><=")[''So you decide to clean the floor first.'' Seems fair, considering getting your clothes out of the walkway will allow you to perform other tasks much more easily. 
+
+You grab several hangers within your closet and get to work, diligently hanging up your T-shirts and sweaters. You place all of your pants on your bed and fold them up afterward, neatly into a drawer. 
+
+Cleaning the floor was simple enough, and you are surprised it isn't as bad as it looks. 
+
+While cleaning your floor, you notice something sticking out of the pile. You investigate, and discover that it's a mini figurine of the Megazoid from Power Rangers! 
+
+The paint on the figure has mostly scrapped off from excessive playing, but you could still recognize it from your childhood. 
+
+It reminds you of your late Grandmother, and you tear up just slightly.
+
+You contenplate on whether to (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[throw it out->Toy: Throw Away]], or(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[ keep it->Toy: Keep]]. ]
+
+
+:: Deep thought {"position":"1700,800","size":"100,100"}
+(align:"=><=")[''You sit on the couch, closing your eyes in a meditative pose, concentrating really hard on your memories and feelings. ''
+
+You think for a while, a long while, a long while, much longer than you'd think. 
+
+You think about that day, the day everything went bad for her, for you. You try to zone in on your guilt, more specifically why you feel guilty, and while it's still foggy, you remember something, and then, the picture was painted in your mind quite well. 
+
+''Your Grandma died of a heart attack, or at least that's what the doctors told you.'' Heart disease runs in the family, and I guess she got the short end of the stick, and at such an old age too. 
+
+So... if it was a heart attack, was it really you who killed her? I mean, you still could've caused it, but you're not sure. 
+
+''All the other details, however, are still null to you, as you eventually open your eyes and you have a minor headache.'' I guess stressing your brain out like that has consequences. 
+
+You make yourself some ginger & lemon tea and sit on the couch, turning on the TV. [[TV.->TV]] ]
+
+
+:: Discovery {"position":"1900,1100","size":"100,100"}
+(align:"=><=") [''You walk inside, and see that everything's exactly how you remember it. ''
+
+You rub your nose and then sneeze. You also remember how dusty this place can get. 
+
+You walk around the vast space and eventually ''come across three paintings. ''
+
+If you look closely enough, you can tell that every painting has the initials of the artists in the corner. 
+
+''The one in the middle has the initials of your Grandma,'' you could tell quite easily. The painting itself is a starry landscape on a plain biome in the night. The moon is placed in the center of the piece, to signify its importance. 
+
+The second one, to the right, looks like abstract art, but not on purpose. It's hazy to you, but it feels like this art piece wasn't intended to look like this, as it seems like the individual was going to draw a tree of some kind, but got interrupted. ''What's weirder, is that it has your initials on it, which means you were here, at some point.''
+
+The third one looks pretty plain, with it being just a light blue background. It seems like this individual had plans for a drawing but got cut short. ''It has the initials of your older brother, Derek. You'd rather not think about him, as thinking about him gets you very upset for some reason.  ''
+
+[[Hmm...->Think]] 
+]
+
+
+:: Final Question {"position":"1300,800","size":"100,100"}
+(align:"=><=")[''//"AMAZING!!!" //''
+
+The crowd goes crazy! Much louder then before. 
+
+After listing out all of these answers... there could only be one cause for your Grandma's death. ''There's only one good answer,'' and it might be one you're not expecting. 
+
+//"FINAL QUESTION! ''How did your Grandma truly die? "'' //
+
+Me and my brother must've gotten into a confrontation about his adobtion when we were painting with our Grandmother. She tried to stop us, but the shock must've triggered her poor heart, causing her to die. It explains why you didn't remember anything from the incident, as you were blinded by rage. the tramua of the incident must've caused you to repress the memory even further.  
+
+[[The Truth->The True Ending]] is... 
+]
+
+
+:: Flea Market {"position":"1700,1300","size":"100,100"}
+(align:"=><=")[''You arrive at the Flea Market. It seems to boast lots of people, to your excitement. ''
+
+You pull up to the spot, as you search for a surprising amount of time for parking, and while it takes a while, you eventually find it. 
+
+''You step out, and realize that the only parking space you can find is one pretty far from the actual market itself.'' Lucky. 
+
+The only thing left to do is walk there, but you don't mind. [[Walks are quite healthy, after all.->The Market Itself]] ]
+
+
+
+:: GAME TIME!!! {"position":"775,1700","size":"100,100"}
+(align:"=><=")[''Y-you couldn't believe your eyes. ''
+
+You frantically look around, and it looks like a typical game show. You are extremely weirded out by this, but you can't dwell on it for long. 
+
+The audience roars in the background as you stare at them, in shock. Shortly after, you quickly twitch your head back to the announcer. 
+
+//"''WEL-COME'' contestant! Ready to test your knowledge, player?"//, as he points and looks at you. 
+
+You have no idea what's he doing, or even what's going on for that matter. 
+
+//"Okay, player. We've got a few questions to ask you for our gameshow tonight. Answer all five questions correctly, and you get to live, however... //
+
+He flips a switch, as the floor beneath you crumbs, as you are about to fall into a pit of nothingness. You can't even make out what the hell it is... 
+
+As soon as you are about to fall, he picks you up and drags you back to the show, "Then you'll meet a fate worse than death". 
+
+The audience gasps. 
+
+//"Don't bother trying to run by the way, don't forget... //
+
+He transforms into a massive abomination, a figure too cursed to even describe or comprehend. You take a few steps back, looking at the creature manifest itself, as you become so afraid that you can't even run anymore. 
+
+''//"I control (text-rotate-z:326)[E](text-rotate-z:34)[V](text-rotate-z:317)[E](text-rotate-z:21)[R](text-rotate-z:352)[Y](text-rotate-z:75)[T](text-rotate-z:314)[H](text-rotate-z:63)[I](text-rotate-z:339)[N](text-rotate-z:180)[G] here". //''
+
+He morphs back. He claps his hands, as the audience starts to applaud him and cheer. Wherever's going on, ''you are in his game, his plaything. ''
+
+//"With that out of the way, let's move on to the questions... " //
+
+He materializes a list of postcards, "Hmm, let's see here...", he picks one, [[//"Oooh, I know!"//->Question #1]] ]
+
+
+:: Home {"position":"1500,1500","size":"100,100"}
+(align:"=><=")[''You arrive home and flop on your couch from exhaustion. ''
+
+You couldn't get anything from the flea market, but at least you were able to relive some good memories... and bad, admittedly. 
+
+You make it to your room and scroll the internet for a while, watching YouTube until you are too exhausted to keep your eyes open. You crawl to your bed, making sure the covers don't miss a single spot. 
+
+You lie in bed for a while, thinking about the whole situation, and while it takes a long while, you eventually get to bed. 
+
+''It's a shame you couldn't solve much, but call it a hunch, but you feel like you are one step closer to figuring out the entire picture.'' Just a little bit longer now, and you will know everything. You fall asleep, feeling more than determined than ever to figure this all out. 
+
+ENDING [[ENDING->Retry?]] ]
+
+
+:: Orphanage Time {"position":"1100,1300","size":"100,100"}
+(align:"=><=")[''You arrive at 11:15 AM. ''
+
+You exit out the car, with your toy in hand. You look at it for a while, and then look up at the Orphanage. 
+
+This feels symbolic in a way for you, but you don't dwell on this for a while, kids would would love to play with something like this. 
+
+With that, you head inside, and shortly after, you fill out the nessasary paper work and donate your toy properly. 
+
+Before leaving, you make one final request: He just wants to see the kid who obtained the toy. 
+
+The employee places the toy inside a basket with other toys, and instructs you to follow them, and (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[head to a room behind the desk.->Parting Gift]] ]
+
+
+:: Pants: Curious {"position":"1300,600","size":"100,100"}
+(align:"=><=")[''Out of sheer curiosity, you see what's in the pants. ''
+
+Your pocket swallows your hand, as you grab what's inside and pull it out in a fist. You open your fingers to find a pair of keys. 
+
+You look closely, and it has some wording on it. the casing is slightly scratched, but is still readable: 
+
+(text-rotate-z:342)[A] (text-rotate-z:12)[r] (text-rotate-z:330)[T] (text-rotate-z:335)[2] (text-rotate-z:31)[2] (text-rotate-z:28)[9] 
+
+When you read this out loud, it's almost like a bell goes off in your brain. It's almost like the event rings in your head like a Gong being repeated hit. 
+
+You know for a fact where this is. This was the place, ''the scene of the incident. ''
+
+You have to pay this place a visit. You have to make sense of this all,  (t8n-depart:"slide-right")+(t8n-arrive:"slide-right")+(t8n-time:3.5s)[[you have to. ->Studio Visit]] ]
+
+
+:: Pants: Not so curious {"position":"1500,600","size":"100,100"}
+(align:"=><=")[''Eh. Probably not something important. ''
+
+You discard the pants, throwing them on the floor. 
+
+You get to cleaning once again. Thus, (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[''the cleaning continues...  ''->Clean, but without pants option]] 
+
+] 
+
+
+:: Parting Gift {"position":"1300,1300","size":"100,100"}
+(align:"=><=")[You arrive in a toy-ish-themed classroom. ''It feels familiar, somehow...'' 
+
+You see many kids playing with various toys and interacting with one another. 
+
+The employee gently places the plastic box of toys on the ground and encourages the kids to look at them. 
+
+You stand patiently, but it seems like no one is interested in the toy... except one kid. 
+
+He grabs it and is ecstatic. He loves Power Rangers and will play with it until all the paint peels off. 
+
+He wonders who got him this, and you step forward. ''He goes inside his cubby and pulls out a kid's drawing of the power rangers.'' You take it delightedly and thank both him and the staff. 
+
+You fold the drawing into your back pocket, and eventually part ways and (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[go home.->Return]] 
+]
+
+
+:: Prove your Worth {"position":"700,1500","size":"100,100"}
+(align:"=><=")["//Rise//", you faintly heard. 
+
+"''RISE, YOU FOOL!''", the serious figure demands.
+
+You jolt up from the demand. You wake up on your bed,'' but it's not your bed, not at all.'' 
+
+After this realization, you immediately jump off your bed, and you watch as it drifts into the darkness.'' You are flabbergasted by this.'' You look down at your hands. 
+
+Your hands, arms, legs; your entire body are a translucent blue, as you are standing on a solid rock formation in the middle of... wherever this is. 
+
+Looking around, it seems like everywhere that isn't the platform is clouded in a reddish storm with occasional purple lighting sparking. Approaching it, you get shocked by said lighting. ''There's no escape. ''
+
+Is this a dream? Is this real? 
+
+"//So you've finally awakened...//", the figure descends from the reddish storm surrounding the platform. 
+
+"//Good, was getting bored waiting. So... do you remember what happened, down to the last detail?//"
+
+You analyze the figure up and down. It seems to be an amalgamation of all of your worst nightmares and fears. Scary, but you must confront him, no escaping until you see this through. 
+
+Despite how nervous you are, ''you must push through.'' You've paid attention, down to the last detail (or at least you should at this point).  
+
+Your confidence level increases, as the figure can sense it immediately, and he grins in excitement.  
+
+//"Excellent... "//
+
+The monster grabs and pushes the fog out, seemingly dissipating it. 
+
+You look around you, [[and...->GAME TIME!!!]] ]
+
+
+
+:: Question #1 {"position":"900,1100","size":"100,100"}
+(align:"=><=")['' //"Quuuueessstiooonnn Numero Uno!"//''
+
+He gets up close and personal to you. It makes you quite uncomfortable, but you can't argue against it. He makes a sad face, sounding like he's sobbing. 
+
+//''"Are you adobted?"''//
+
+[[A: Yes ->Question #2]]
+
+[[B: No ->Wrong Answer]] 
+] 
+
+
+:: Question #2 {"position":"1100,1500","size":"100,100"}
+(align:"=><=")[//''"Cooooooooorect!"''//, the announcer hollers. 
+
+The audience cheers for your recent success. 
+
+//"Alright, the next question: ''Why were you bullied as a kid? ''"//
+
+[[A: I was awkward and easy to pick on.->Wrong Answer]]
+
+[[B: I had a big nose as a kid. ->Wrong Answer]]
+
+[[C: I was adopted.  ->Question #3]] ]
+
+
+:: Question #3 {"position":"950,1700","size":"100,100"}
+(align:"=><=")[''//"Rrrrrrrrrrrrrr-ight again, mate!"//''
+
+The audience hollers even louder then before.  
+
+//"Third Question! You often got pretty angry at people, such as your brother and those that have billed you. ''What happens when you get really angry?''"//
+
+[[A: You become constipated and have to use the bathroom for a few hours.  ->Wrong Answer]]
+
+[[B: Like a bull, you blank out completely, not being able to remember what happens afterwards. ->Question #4]]
+
+[[C: You become bloodthirsty, so your parents have to constantly keep their eyes on you.->Wrong Answer]] ]
+
+
+
+
+
+
+
+:: Question #4 {"position":"1300,1100","size":"100,100"}
+(align:"=><=") [''//"Excellent!!!!" Just two more questions folks! You'll be safe and sound in no time at all!" //''
+
+// "Question Four! ''Where were you, your Grandmother and your brother on the day of the depressing event?" ''// 
+
+[[A: At the Art Studio->Final Question]]
+
+[[B: In the Orphanage->Wrong Answer]] 
+
+[[C: At the Flea Market ->Wrong Answer]] ]
+
+
+
+
+
+:: Retry? {"position":"700,1300","size":"100,100"}
+(align:"=><=")[Thanks For Playing! 
+
+Inspired by "Who Has Seen the Wind?" by Christina Rossetti
+
+
+You have obtained ''one of the four endings''. Have you discovered ''the other three?'' 
+
+(t8n-time:2s)[[Continue searching for the answers ->Awoken]]
+
+Or, if you're feeling confident, you could (t8n-time:2s)[[put your knowledge to the test.->Prove your Worth]]
+
+''I RECOMMEND OBTAINING ALL FOUR ENDINGS FIRST BEFORE ATTEMPTING THIS.'' 
+]
+
+
+:: Return {"position":"900,1300","size":"100,100"}
+(align:"=><=")[''You drive home, thinking about what just transpired.'' 
+
+That ophanage, it felt familar, and as you pend on that though, you remember a core memory. 
+
+''You're Adopted'' 
+
+Your family alerted this to you when you were younger, but have forgotten in recent years. It's quite easy to remember, but frankly, maybe you ''wanted'' to forget. 
+
+Your bother accidently exposed your adopted status in your school after getting into a fight, and you were merciously bullied for it. Everyday you came back more depressed from school. 
+
+You eventally were forced to come to terms with it, but the word used against you has led to you becoming bitter about it. 
+
+You've found some peace with helping that kid out, but now, ''instead of feeling guilt, you question why you felt guilty anyways.''
+
+You make your way home, and decide to rest. You ponder these thoughts for a while before drifting to sleep.
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:2s)[[ENDING->Retry?]]
+
+]
+
+
+:: Settled {"position":"1700,1100","size":"100,100"}
+(align:"=><=") [''You head home and immediately lock your door.'' 
+
+You close all of your blinds and lock yourself in. 
+
+''You are scared of yourself.'' You can't muster up the strength to go outside anymore. The mere thought of you blanking out while frustrated scares you. You probably could've killed your brother if he didn't stop you. 
+
+Your initial feelings were right, maybe discovering the truth may not have been the best idea. They say, ignorance is bliss, for a reason.
+
+''Weeks go by, and you haven't left. ''You're still balled up on the floor of your room, making sure you can't hurt anyone else with your rage fits. 
+
+[[ENDING ->Retry?]] 
+]
+
+
+:: Stubborn {"position":"1300,1500","size":"100,100"}
+(align:"=><=")[''You decided to discard of it anyways.''
+
+I'm sure they have more than enough toys already, and a constant reminder of what's happened doesn't sit well with you. 
+
+You decide to [[finish cleaning->Clean]], which takes a few hours... 
+] 
+
+
+
+:: Studio Visit {"position":"1900,800","size":"100,100"}
+(align:"=><=") [''After driving for roughly 30 minutes, pending what this discovery could entail for you, you finally arrive and park properly. ''
+
+Looking up at the building, you feel an intense sense of dread. While you have been thinking about what could've happened, ''you've never thought about the prospect of how much the truth could hurt. ''
+
+Walking towards the building, you're flooded with memories of the aftermath of the situation: 
+
+After she sadly perished, you remember immediately melting down, rushing outside and driving home, and eventually melting down there as well. Ever since that day, ''you've vowed to never paint ever again. ''
+
+You thought after it was all over, you'd never have to see this place again, but at last, here you are. ''You must confront it, no matter what happens.'' Hesitation leads to disaster, after all. 
+
+As you approach the front door, and notice that it's locked, and it obviously needs a key. 
+
+You dig in your pocket for the key from earlier, insert it, and open the door.
+
+With courage, (t8n-time:3.5s)[[you head inside...->Discovery]]
+
+]
+
+
+:: THE TRUE ENDING {"position":"1900,600","size":"100,100"}
+(align:"=><=")[''You arrive at the cemetery in which her gravestone is located.'' You remembered where and when it all happened. The funeral, the crying, the pain, all of it. Now, you can at least make amends with her, and finally put this all to rest. 
+
+You approach her gravestone and take a knee out of respect. 
+
+''You apologize for what happened''. Even after you know the truth, you still feel a bit of guilt. 
+
+Despite that, however, you know that ''you are truly at peace now.'' You say your goodbyes and promise to do better, for your own sake, but hers as well.
+
+''You stand up, and leave the cemetery, as the sun sets in the background... ''
+
+''THE END''
+
+]
+
+
+:: TV {"position":"1300,1700","size":"100,100"}
+(align:"=><=")[''It is currently 8:15 PM''
+
+You put your ginger tea on a short glass coffee table and watch TV for a while. 
+
+You figured that while you didn't exactly understand everything, ''you at least know that she died of a heart attack,'' and whether it was your fault or not, is up in the air, but you are confident you can figure it all out tomorrow.
+
+One of your favorite shows starts playing, and you immediately become invested, for a few hours. You feel yourself start to drift asleep, as your headache starts to heal hour by hour. 
+
+[[ENDING->Retry?]] ]
+
+
+:: The Market Itself {"position":"1500,1100","size":"100,100"}
+(align:"=><=")[''Your walk turned into a brisk walk, which transformed into a light jog until you arrived.''
+
+You gaze at the sheer wonder of the entire place, as you enter the flea market. 
+
+You look around and see plenty of shops and vendors. You browse a clothing shop for a little bit, and you eye this red sweater with a cool golden Chinese dragon on it. You wanted to buy it so badly, but you sadly forgot your wallet. Though, you take a picture of it and hopefully don't forget it. 
+
+Bummed out, you at least take a look at a food vendor, and it seems like they sell breakfast-related things, but crepes are what they usually sell. Smelling them reminds you of simpler times, times when you were a kid. 
+
+''You remember that you and your brother usually fought quite a bit, due to an event within your childhood.'' You guys even fought here, after your brother ate a crepe, which was meant for both of you to share. After that happened, you can't seem to remember what else happened... 
+
+After a day of discovery and wonder, the place eventually closed, and more and more people left, and eventually, so did you. 
+
+You decide to drive home for the day... [[You decide to drive home for the day... ->Home]] ]
+
+
+:: The True Ending {"position":"1500,800","size":"100,100"}
+(align:"=><=")[''You wake up immediately, but this time, in your bed.'' You immediately look at your own hands, your whole body, matter of fact. You look around your room, and everything looks normal. 
+
+You leap out of your bed and look immediately behind you to see if your bed would disappear into the background.
+
+'' Everything's normal again, thank god. ''
+
+You look at a digital clock, and it seems like today's the day after your late Grandma's funeral. You somehow remember where her gravestone is, and decide to pay a visit, to truly come at peace with yourself. 
+
+[[Check up on your Grandma.->THE TRUE ENDING]]
+
+]
+
+
+:: The world is... {"position":"700,600","size":"100,100"}
+(align:"=><=")[(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Introducing...->Awoken]] 
+
+
+"//The Unknown//" by Harold J. Pierre]
+
+
+
+:: Think {"position":"1900,1300","size":"100,100"}
+(align:"=><=") [''You think for a moment. ''
+
+Why were you here, and for what reason? It all seems... hazy
+
+You look at the abstract painting and touch it with a finger. 
+
+After assessing it, the quality, the texture, you've come to realize that it's not red paint.'' It's dried up human blood, a cruel amount of it. ''
+
+The thought almost makes you throw up, but in doing so, you collapses to the ground on all fours. 
+
+Could... ''could you have killed her?'' No... why would you do that? That's impossible... unless... 
+
+''You need to get out of here.'' You need to head home, thinking about the concept of killing your Grandmother in a fit of rage sickens you to your core. 
+
+[[You need to head home->Settled]] 
+]
+
+
+:: Toy: Keep {"position":"1100,800","size":"100,100"}
+(align:"=><=")[''After contemplating it for a while, you conclude that it's still valuable to you.'' Plus, you could use some figurines to decorate your desk.
+
+After cleaning your desk, you place the figurine next to your computer monitor. It looks fabulous there. 
+
+It's the only thing you have left of your childhood, and making sure to preserve it is important to you. Though, you feel nasty about it, it's almost as if ''you feel like you don't deserve to put it there.''
+
+Your floor is done, but you've still got work to do. You (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[continue->Clean]] on, trying to avoid the pending question. 
+
+]
+
+
+:: Toy: Throw Away {"position":"1100,1100","size":"100,100"}
+(align:"=><=")[''With a heavy heart, you decide to toss it. ''
+
+Frankly, it's lost its meaning as an adult, and nothing can last forever. Some things are just meant to remain as relics of the past, and nothing more. 
+
+On your way to dispose of it in your garbage can, you notice a T-shirt lying on the floor. Taking a closer look at it, It's of an orphanage your parents work at. 
+
+''You think for a moment, and it would probably be a much better use of your time if you donated it to this place.'' It'd be nice to see the kids again, as, during this time of extreme distress, you could at least make a difference. 
+
+What will you do? Will you (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[donate to the orphanage->Travel: To the Orphanage]], or (t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[will you discard of it anyways?->Stubborn]]]
+
+
+:: Travel: To the Orphanage {"position":"700,1100","size":"100,100"}
+(align:"=><=")[''You decide that the best thing to do is to donate it to a good cause. ''
+
+When you look around you, however, you still have a messy room, but it can wait. After all, you don't imagine very much could happen while you're gone. 
+
+You get your things ready and eventually leave your apartment. You make your way to the garage, and you use your car keys to locate the car and exit towards the facility.   
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[To the Orphanage! ->Orphanage Time]] ]
+
+
+:: Travel: To the Park {"position":"1700,1500","size":"100,100"}
+(align:"=><=")[''"Man, I love flea markets." ''
+
+Or at least, that's something you would say. 
+
+''As a kid, you've always loved to come to Flea markets, just to see all the stands, the food, and the people, just the thought of the swelling of people in one given area to do something together always intrigued you. ''
+
+After grabbing your house and car keys, you drive off towards the park, in hopes of at least enjoying yourself. 
+
+Let's see how great this [[flea market->Flea Market]] truly is. ]
+
+
+:: Wrong Answer {"position":"900,1500","size":"100,100"}
+// ''The announcer shakes his head in disappointment, "Tsk, tsk, tsk. It seems like you still aren't ready to accept the truth, are you? " '' //
+
+The audience reacts similarly. 
+
+Without much time to reach, the announcer pulls the level, as you fall into [[the dark abyss... ->Awoken]]
+
+
+
+:: Yeah.\  {"position":"900,600","size":"100,100"}
+(align:"=><=")[''With haste, you shut off the cursed thing.'' You looked more closely at the alarm clock. 
+
+''8:15''. That's the time where you have to go to work, or at least, that's when you're ''supposed'' to. 
+
+You decided to take a few vacation days dedicated to your grieving, and your boss is quite understanding of this. Perks of being a good employee, I guess.
+
+''Something's bugging you'', something ''sinister'', and you feel like you have to ''deal with it today''. You can't explain it, but if ''you don't deal with this now, you'll never get over it''.
+
+But before you deal with that, it seems like you've got chores to do: 
+
+''Your room is a mess.'' You took the realization the hardest, and the reminder is not a sight for sore eyes. 
+
+In the near distance, you notice several things: 
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Your messy clothes scattered all across the floor. Among the piles of clothes, you seem to notice a faint object buried within. ->Cleaning Time: Floor]]
+
+(t8n-depart:"blur")+(t8n-arrive:"blur")+(t8n-time:3.5s)[[Your desk flooding with liquids from beverages, creating an nauseating smell. Your last pair of pants seems to have a bloated pocket. ->Cleaning Time: Desk]] 
+]
